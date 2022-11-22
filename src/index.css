@@ -1,0 +1,203 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Header section */
+.Header {
+  background-image: url("./img/background.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.HeaderContainer {
+  padding: 5em 13em;
+}
+
+.HeaderWrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 7em;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 7em;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 43px;
+  font-weight: 400;
+  color: #7150c1;
+}
+
+hr {
+  color: #7a5ac4;
+}
+
+hr:nth-child(1) {
+  margin-right: 15em;
+}
+
+.ButtonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.CircleButton {
+  background-color: rgba(255, 255, 255, 0.335);
+  border-radius: 100px;
+  padding: 0.5em 0.7em;
+  border: 0;
+  font-size: 1.7em;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+
+.Bounce {
+  animation-name: Bounce;
+  animation-timing-function: ease-in-out;
+}
+@keyframes Bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-13px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* --------------------------- */
+
+/* Info section */
+body {
+  background-color: #ffffff;
+}
+
+.InfoSection h2 {
+  padding: 1em 1em;
+  color: #7150c1;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.InfoContainer {
+  padding: 2em 8em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  text-align: center;
+}
+
+p {
+  color: #7150c1;
+  font-size: 1.2em;
+  padding: 0 1em;
+  margin-top: 0;
+}
+
+.SquareButton {
+  background-image: linear-gradient(to bottom, #5e9ccc 0%, #b996c6 57%, #e8b0c8 100%);
+  color: #ffffff;
+  padding: 0.7em 2.3em;
+  border: none;
+  font-size: 1.2em;
+  border-radius: 12px;
+  margin-bottom: 3em;
+  box-shadow: 2px 2px 4px #7250c169;
+}
+/* --------------------------- */
+
+/* Calculator section */
+.CalculatorSection h2 {
+  padding: 2em 1em;
+  font-size: 3em;
+  text-align: center;
+}
+
+.CalculatorSection h3 {
+  text-align: center;
+}
+
+.Form {
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.InputField {
+  width: 20vw;
+  min-width: 200px;
+  height: 4vh;
+  min-height: 40px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #5c3ea1;
+  border: 2px solid #5c3ea1;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.ResultWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  margin: 0 3em;
+  gap: 30px;
+}
+
+.ResultWrapper h3 {
+  color: #ffffff;
+  font-size: 1.6em;
+}
+
+.ResultWrapper h4 {
+  color: #7150c1;
+  font-size: 1.6em;
+  line-height: 40px;
+}
+
+.ResultWrapper h5 {
+  color: #ffffff;
+  font-size: 1em;
+  background-color: #b996c692;
+  border-radius: 20px;
+  padding: 0.5em 0.5em;
+}
+/* --------------------------- */
