@@ -5,7 +5,7 @@ function InfoArticle() {
     <div className="InfoContainer">
       <article>
         <img src="./src/img/info_cloud1.webp" alt="A gradient cloud illustration" />
-        <p>Have you ever wondered what the environmental cost of a post, a story, watching a live or Instagram feed could be?</p>
+        <p>Have you ever wondered what the environmental cost of a Instagram post, a story, watching a live or scrolling through Instagram feed could be?</p>
       </article>
 
       <article>

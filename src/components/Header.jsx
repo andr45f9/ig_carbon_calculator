@@ -13,7 +13,9 @@ function Header() {
             <h2>Of 2022</h2>
           </div>
           <h3>
-            LET´S SAVE THE <br></br> ENVIROMENT BY <br></br> BEING AWARE
+            <i>
+              LET´S SAVE THE <br></br> ENVIROMENT BY <br></br> BEING AWARE
+            </i>
           </h3>
         </div>
         <div className="ButtonWrapper">
